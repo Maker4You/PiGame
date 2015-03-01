@@ -1,0 +1,182 @@
+#phone{
+	width:300px;
+	height:500px;
+	margin:auto;
+	background:#fff;
+}
+#version{
+	margin-left:10px;
+	margin-top:-40px;
+	font-family:Lucida Console;
+}
+#top-bar{
+	height:58px;
+	display:block;
+	background-color: #5cb85c;
+	border:1px solid #091409;
+	text-align:center;
+}
+#title{
+	margin:auto;
+	font-size:2.9em;
+	color:#0F220F;
+}
+#profile-img{
+	position:fixed;
+	display:block;
+	float:left;
+	margin-left:10px;
+	margin-top:8px;
+	border:1px solid black;
+}
+#profilescore{
+	font-family:Lucida Console;
+	text-align:center;
+	margin-top:6em;
+}
+#container{
+	display:block;
+	height:338px;
+	background-color:#eee;
+	border:1px solid black;
+}
+#containerlist{
+	display:block;
+	height:338px;
+	background-color:#eee;
+	border:1px solid black;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+#login{
+	display:block;
+	height:438px;
+	background-color:#eee;
+	border:1px solid black;
+}
+#ads{
+	height:40px;
+	display:block;
+	background-color: #eee;
+}
+#footer{
+	height:58px;
+	display:block;
+	background-color: #5cb85c;
+	border:1px solid #091409;
+}
+#ad{
+	height:40px;
+	width:300px;
+}
+.btn{
+	padding: 1em 2em;
+	font-size: 14px;
+	border: 1px solid #d43f3a;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #d9534f;
+}
+.modes{
+	display:block;
+	margin:auto;
+	margin-top:3.3em;
+}
+.navbtn{
+	display:inline-block;
+	background:transparent;
+	border:1px solid black;
+	height:58px;
+	width:99.3px;
+	float:left;
+	text-decoration: none;
+	color: buttontext;
+	box-sizing: border-box;
+	-webkit-appearance: button;
+	-text-vertical-align: middle;
+}
+.navtext{
+	font-size:1.3em;
+	font-family:Lucida Console;
+	text-align: center;
+}
+.chosen{
+	background-color:#418441;
+}
+.unchosen{
+	background-color:#5cb85c;
+}
+#refresh{
+	margin-top:5px;
+	margin-left:5px;
+	float:left;
+	border-radius:30px;
+	font-size:20px;
+	border: 1px solid #d43f3a;
+	color: #fff;
+	background-color: #d9534f;
+}
+#closetscroe{
+	float:right;
+}
+#pienum{
+	font-family:Lucida Console;
+	text-align:center;
+	margin-top:80px;
+}
+#usernum{
+	font-family:Lucida Console;
+	text-align:center;
+}
+.mnum10{
+	font-size:2.3em;
+}
+.mnum15{
+	font-size:1.8em;
+}
+.mnum20{
+	font-size:1.3em;
+}
+#note{
+	font-family:Lucida Console;
+	font-size:0.7em;
+	text-align: center;
+}
+.toplistd{
+	display:block;
+	margin-top:10px;
+	width:260px;
+	margin:auto;
+	height:70px;
+	border-bottom:1px solid black;
+}
+#lasttoplistd{
+	display:block;
+	margin-top:10px;
+	width:260px;
+	margin:auto;
+	height:70px;
+}
+#containerlist:last-child{
+	border-bottom:0px;
+}
+.picture{
+	display:block;
+	height:3em;
+	width:3em;
+	margin-top:11px;
+	float:left;
+}
+.playerdata{
+	margin-left:10px;
+	font-size:1.1em;
+	font-family:Lucida Console;
+	display:inline-block;
+}
+#facebook{
+	text-align:center;
+	margin-top:50px;
+}
+.facetext{
+	font-family:Lucida Console;
+}

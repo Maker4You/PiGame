@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pie Game</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="phone">
+			<div id="top-bar">
+				<a href="profile.html"><img id="profile-img"></img></a>
+				<h1 id="title">&#960</h1>
+			</div>
+			<div id="container">
+				<!-- link to the game page with global var with the num of the mode(example:10)-->
+				<form action="game.html" method="GET">
+					<input type="submit" name="10" id="m10" class="btn modes" value="&#9658 Mode 10" />
+					<input type="submit" name="15" id="m15" class="btn modes" value="&#9658 Mode 15" />
+					<input type="submit" name="20" id="m20" class="btn modes" value="&#9658 Mode 20" />
+				</form>
+			</div>
+			<div id="ads">
+				<img src="ad.jpg" id="ad">
+			</div>
+			<div id="footer">
+				<a href="top10.html" id="m10" class="navbtn unchosen"><p class="navtext">Top 10</p></a>
+				<a href="friends.html" id="m20" class="navbtn unchosen"><p class="navtext">Friends</p></a>
+				<a href="modes.html" id="m30" class="navbtn chosen"><p class="navtext">Modes</p></a>
+			</div>
+		</div>
+		<script src="jquery.js" ></script>
+		<script src="sureConnected.js" ></script>
+	</body>
+</html>

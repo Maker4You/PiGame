@@ -1,0 +1,16 @@
+<?php 
+	$conn = new mysqli('mysql16.000webhost.com','a7948566_CatchPI','m&oCatch','a7948566_CatchPI');
+
+	// Check connection
+	if ($conn->connect_error) {
+		echo('error to upload the score');
+		die("Connection failed: " . $conn->connect_error);
+	} 
+	else{
+		$iduser = $_GET['iduser'];
+			$user = mysqli_query($conn,"SELECT FROM user_score WHERE iduser = '".$iduser."'");
+			echo $user['score'];
+		}
+		$conn->close();
+	}
+?>
